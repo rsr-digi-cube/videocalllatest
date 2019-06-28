@@ -1,0 +1,21 @@
+{
+  "name": "videocallproject",
+  "version": "1.0.0",
+  "description": "project of simple video call ",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Rajendra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "simple-peer": "^9.4.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
